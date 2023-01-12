@@ -24,6 +24,7 @@ Public Class FrmClsTest
         sCol(1) = TextBox2.Text
         sCol(2) = TextBox3.Text
 
+        'コメント
         Call setColor(sCol)
 
         sBox = c1.nametest & vbCrLf
