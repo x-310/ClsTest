@@ -28,66 +28,77 @@ Partial Class FrmClsTest
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(156, 43)
+        Me.Button1.Location = New System.Drawing.Point(156, 41)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(178, 40)
+        Me.Button1.Size = New System.Drawing.Size(178, 38)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(194, 112)
+        Me.TextBox1.Location = New System.Drawing.Point(194, 107)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(78, 29)
+        Me.TextBox1.Size = New System.Drawing.Size(78, 28)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Text = "赤"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(171, 231)
+        Me.Button2.Location = New System.Drawing.Point(171, 220)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(129, 41)
+        Me.Button2.Size = New System.Drawing.Size(129, 39)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(194, 149)
+        Me.TextBox2.Location = New System.Drawing.Point(194, 142)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(78, 29)
+        Me.TextBox2.Size = New System.Drawing.Size(78, 28)
         Me.TextBox2.TabIndex = 5
         Me.TextBox2.Text = "青"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(194, 186)
+        Me.TextBox3.Location = New System.Drawing.Point(194, 177)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(78, 29)
+        Me.TextBox3.Size = New System.Drawing.Size(78, 28)
         Me.TextBox3.TabIndex = 6
         Me.TextBox3.Text = "黄"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(171, 297)
+        Me.TextBox4.Location = New System.Drawing.Point(171, 283)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(128, 82)
+        Me.TextBox4.Size = New System.Drawing.Size(128, 78)
         Me.TextBox4.TabIndex = 7
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(171, 384)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(129, 39)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'FrmClsTest
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 21.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(521, 457)
+        Me.ClientSize = New System.Drawing.Size(521, 468)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -109,4 +120,5 @@ Partial Class FrmClsTest
     Friend WithEvents TextBox2 As Windows.Forms.TextBox
     Friend WithEvents TextBox3 As Windows.Forms.TextBox
     Friend WithEvents TextBox4 As Windows.Forms.TextBox
+    Friend WithEvents Button3 As Windows.Forms.Button
 End Class

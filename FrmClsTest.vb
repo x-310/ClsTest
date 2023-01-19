@@ -33,4 +33,8 @@ Public Class FrmClsTest
 
         TextBox4.Text = sBox
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Call POPCODE.POP_CODE()
+    End Sub
 End Class
